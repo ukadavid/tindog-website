@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat-Black';
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3{
+font-family: 'Montserrat-Black';
+font-size: 1.5rem;
+}
+
+p{
+color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.container {
+  padding-left: 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-Light;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.image-1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* feature section */
+
+.icon {
+  color: #ef8172;
+  font-size: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.icon :hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonial sections */
+
+#testimonials {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+.testimonial-carousel {
+  padding-bottom: 5%;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  height: 305px;
+}
+
+.call-h {
+  color: #fff;
+   padding: 1% 0 0;
+   font-size: 3rem;
+   font-family:Montserrat-Black;
+   line-height: 1.5;
+}
+.download-butt {
+margin: 0 3% 5% 2%;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.footer-content {
+  margin: 3% 0 2%;
+}
+
+.icon-2 {
+ margin: 0 1% 1% 3px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+.image-1{
+  position: static;
+  transform: rotate(0);
+}
+}
